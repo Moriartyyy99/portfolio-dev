@@ -22,7 +22,7 @@ export default function Projects() {
       : projects.filter((p) => p.category === active);
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-20">
+    <div className="max-w-6xl mx-auto px-6 pt-8 pb-20max-w-6xl mx-auto px-6 pt-15 py-20">
       <Reveal>
         <SectionTitle eyebrow="Portfolio" title="Semua Proyek" />
       </Reveal>

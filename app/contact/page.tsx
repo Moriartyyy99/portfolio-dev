@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 
 export default function Contact() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-20">
+    <div className="max-w-3xl mx-auto px-6 pt-15 py-20">
       <Reveal>
         <SectionTitle eyebrow="Kontak" title="Mari bekerja sama." />
       </Reveal>
@@ -17,7 +17,7 @@ export default function Contact() {
 
       <Reveal delay={0.2}>
         <form
-          action="https://formspree.io/f/xxxxxxx"
+          action="https://formspree.io/f/xnpjyzzv"
           method="POST"
           className="space-y-4"
         >
@@ -58,7 +58,7 @@ export default function Contact() {
 
       <Reveal delay={0.3}>
         <div className="mt-12 pt-8 border-t border-neutral-200 text-sm text-neutral-600">
-          <p>📧 fajri@email.com</p>
+          <p>📧 nugrohofajri14@email.com</p>
           <p className="mt-2">📍 Indonesia</p>
         </div>
       </Reveal>

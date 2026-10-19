@@ -34,13 +34,7 @@ export default function Home() {
 
             <Reveal delay={0.2}>
               <p className="text-lg text-neutral-600 max-w-2xl mb-8 leading-relaxed">
-                Lulusan D4 Rekayasa Perangkat Lunak Politeknik Negeri Indramayu
-                yang memiliki minat pada pengembangan web, UI/UX design, dan
-                game development. Berpengalaman dalam pengembangan aplikasi web
-                dan game edukasi menggunakan berbagai teknologi, termasuk
-                Laravel, React.js, JavaScript, dan Roblox Studio. Terus
-                mengembangkan keterampilan untuk menghasilkan solusi digital
-                yang kreatif dan fungsional.
+                Lulusan Rekayasa Perangkat Lunak yang memiliki minat di bidang web development, UI/UX design, desain grafis, dan game development. Saya senang mengeksplorasi teknologi serta menciptakan karya digital yang kreatif, fungsional, dan menarik.
               </p>
             </Reveal>
 

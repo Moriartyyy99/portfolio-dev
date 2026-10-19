@@ -50,7 +50,7 @@ export default function Navbar() {
 
         {/* Menu desktop (Tengah) */}
         <motion.ul
-          animate={{ x: scrolled ? 0 : "100%" }} // ← Angka 120% saya ganti jadi 35% agar posisi awal (belum scroll) ada di kanan, tidak keluar layar
+          animate={{ x: scrolled ? 0 : "75%" }} // ← Angka 120% saya ganti jadi 35% agar posisi awal (belum scroll) ada di kanan, tidak keluar layar
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
           className="hidden md:flex gap-2 text-sm font-medium"
         >

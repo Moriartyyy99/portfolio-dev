@@ -23,7 +23,7 @@ export const projects: Project[] = [
     description:
       "Merancang desain UI/UX aplikasi laundry sepatu dengan memperhatikan kemudahan navigasi, dan tampilan antarmuka yang menarik untuk mendukung proses pemesanan layanan laundry.",
     longDescription:
-      "Proyek redesign aplikasi fintech ini bertujuan untuk menyederhanakan alur transaksi yang sebelumnya rumit. Saya melakukan user research, membuat wireframe, dan mengembangkan design system baru. Hasilnya, waktu penyelesaian transaksi berkurang 40% dan tingkat kepuasan pengguna naik signifikan berdasarkan usability testing.",
+      "Merancang desain UI/UX aplikasi layanan laundry sepatu dengan fokus pada kemudahan penggunaan dan kenyamanan pengguna. Proyek ini mencakup perancangan struktur halaman, alur pengguna (user flow), tata letak antarmuka, pemilihan warna, serta elemen visual untuk menciptakan pengalaman pemesanan layanan yang intuitif dan menarik.",
     image: "/images/project-1.png",
     gallery: [
       "/images/laundry-owner-1.png",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     description:
       "Merancang desain UI/UX aplikasi berbasis web untuk pembelian pulsa, kuota internet, serta berbagai produk perangkat keras dengan fokus pada kemudahan penggunaan.",
     longDescription:
-      "Membangun identitas visual lengkap untuk coffee shop lokal — mulai dari logo, palet warna, tipografi, hingga aplikasi pada kemasan dan materi promosi. Pendekatan yang diambil adalah modern-minimalis dengan sentuhan lokal, mencerminkan karakter brand yang hangat dan bersahabat.",
+      "Merancang desain UI/UX aplikasi berbasis web untuk mendukung transaksi pembelian pulsa, paket data internet, serta berbagai produk perangkat keras. Perancangan berfokus pada penyusunan antarmuka yang informatif, navigasi yang mudah dipahami, dan alur transaksi yang praktis agar pengguna dapat menemukan produk serta melakukan pembelian dengan nyaman.",
     image: "/images/project-2.png",
     gallery: [
       "/images/dcell-1.png",
@@ -68,9 +68,9 @@ export const projects: Project[] = [
     id: "3",
     title: "Kedai Kita Logo",
     category: "Graphic Design",
-    description: "Perancangan logo Kedai Kita",
+    description: "Merancang logo Kedai Kita sebagai identitas visual usaha yang merepresentasikan karakter dan konsep bisnis melalui desain yang menarik, sederhana, dan mudah dikenali.",
     longDescription:
-      "Game puzzle mobile dengan 50+ level yang bertingkat kesulitannya. Menggunakan Firebase untuk leaderboard online dan sistem bintang sebagai reward. Difokuskan untuk sesi bermain singkat namun memuaskan.",
+      "Membuat desain logo Kedai Kita sebagai bagian dari pengembangan identitas visual usaha. Proyek ini berfokus pada perancangan elemen visual yang sesuai dengan karakter dan konsep bisnis, termasuk pemilihan bentuk, warna, tipografi, serta komposisi logo agar terlihat menarik, mudah dikenali, dan dapat digunakan untuk mendukung kebutuhan branding serta media promosi usaha.",
     image: "/images/project-6.png",
     gallery: [
       "/images/kk-1.png",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     description:
       "Mengembangkan aplikasi web toko online menggunakan Laravel dengan fitur pengelolaan produk dan integrasi pembayaran Midtrans dalam mode sandbox, serta merancang antarmuka yang responsif dan menarik.",
     longDescription:
-      "Game platformer 2D ini dikembangkan menggunakan Unity dan C#. Fokus utama ada pada feel pergerakan karakter yang responsif, mekanik wall-jump yang memuaskan, serta level design bertingkat yang mengajarkan pemain secara bertahap. Proyek ini juga menjadi eksplorasi saya dalam pixel art dan sound design.",
+      "Mengembangkan aplikasi web e-commerce menggunakan Laravel 11 dengan fitur katalog produk, pengelolaan keranjang belanja, proses checkout, dan integrasi pembayaran Midtrans dalam mode sandbox. Proyek ini berfokus pada implementasi fungsionalitas aplikasi serta pengembangan antarmuka dengan tampilan bernuansa pink dan ungu untuk memberikan pengalaman berbelanja yang menarik dan mudah digunakan.",
     image: "/images/project-3.png",
     gallery: [
       "/images/lals-1.png",
@@ -114,7 +114,7 @@ export const projects: Project[] = [
     description:
       "Mengembangkan aplikasi web pengelolaan surat masuk dan keluar menggunakan React.js, integrasi API, serta fitur ekspor data ke Excel dan PDF.",
     longDescription:
-      "Dashboard ini dirancang untuk membantu tim marketing memantau performa campaign secara real-time. Tantangan utamanya adalah menyajikan data kompleks menjadi visual yang mudah dicerna. Saya membuat design system modular sehingga komponen bisa digunakan ulang di berbagai halaman.",
+      "Berkontribusi dalam pengembangan aplikasi web pengelolaan surat masuk dan surat keluar selama menjalani magang di PT Cybers Blitz Nusantara. Pekerjaan mencakup pengembangan antarmuka menggunakan React.js, integrasi REST API, penyesuaian hak akses berdasarkan peran pengguna, serta implementasi fitur ekspor data ke format Excel dan PDF untuk mendukung pengelolaan administrasi surat secara lebih terstruktur dan efisien.",
     image: "/images/project-4.png",
     gallery: [
       "/images/digi-1.png",
@@ -135,7 +135,7 @@ export const projects: Project[] = [
     description:
       "Mengembangkan game edukasi berbasis Roblox untuk memperkenalkan budaya Indramayu melalui lingkungan virtual interaktif serta menganalisis pengalaman pengguna menggunakan metode UEQ.",
     longDescription:
-      "Seri poster untuk festival musik indie — 5 poster dengan tema berbeda namun tetap satu bahasa visual. Eksplorasi tipografi eksperimental, warna bold, dan komposisi dinamis yang merepresentasikan energi panggung.",
+      "Mengembangkan game edukasi berbasis Roblox yang bertujuan memperkenalkan budaya, tradisi, dan bangunan bersejarah Kabupaten Indramayu melalui lingkungan virtual yang interaktif. Proyek ini meliputi pembuatan lingkungan permainan dan aset 3D menggunakan Roblox Studio serta Blender, dilengkapi berbagai objek budaya yang dapat dieksplorasi oleh pemain. Selain pengembangan game, proyek tugas akhir ini juga mencakup analisis pengalaman pengguna menggunakan metode User Experience Questionnaire (UEQ) untuk mengevaluasi pengalaman pemain dalam menggunakan media pembelajaran tersebut.",
     image: "/images/project-5.png",
     gallery: [
       "/images/budaya-1.png",
@@ -155,9 +155,9 @@ export const projects: Project[] = [
     id: "7",
     title: "Graphic Design Canva",
     category: "Graphic Design",
-    description: "Kumpulan design poster kali terakhir yang pernah dibuat.",
+    description: "Membuat berbagai desain poster dan logo menggunakan Canva dengan memperhatikan komposisi visual, pemilihan warna, tipografi, serta kreativitas untuk menghasilkan desain yang menarik dan komunikatif.",
     longDescription:
-      "Game puzzle mobile dengan 50+ level yang bertingkat kesulitannya. Menggunakan Firebase untuk leaderboard online dan sistem bintang sebagai reward. Difokuskan untuk sesi bermain singkat namun memuaskan.",
+      "Mengerjakan berbagai proyek desain grafis berupa poster dan logo menggunakan Canva untuk menyampaikan informasi serta membangun identitas visual. Proses desain meliputi pemilihan elemen grafis, pengaturan tata letak, kombinasi warna, dan tipografi agar menghasilkan karya yang menarik, mudah dipahami, dan sesuai dengan tujuan desain. Proyek ini juga menjadi sarana untuk mengembangkan kreativitas serta keterampilan dalam komunikasi visual dan desain grafis digital.",
     image: "/images/project-canva.png",
     gallery: [
       "/images/canva-1.png",

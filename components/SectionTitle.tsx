@@ -6,7 +6,7 @@ export default function SectionTitle({
   title: string;
 }) {
   return (
-    <div className="mb-10">
+    <div className="mb-4">
       {eyebrow && (
         <div className="flex items-center gap-2 mb-3">
           <span className="w-8 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full" />
