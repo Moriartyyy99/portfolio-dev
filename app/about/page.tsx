@@ -64,7 +64,7 @@ export default function About() {
 
       <Reveal delay={0.4}>
         <a
-          href="/cv.pdf"
+          href="/CV Fajri Nugroho.pdf"
           download="CV Fajri Nugroho.pdf"
           className="inline-block mt-10 bg-gradient-to-r from-indigo-600 to-violet-600 text-white px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-indigo-500/30 hover:-translate-y-0.5 transition-all duration-300 font-medium"
         >

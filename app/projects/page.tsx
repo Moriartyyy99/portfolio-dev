@@ -11,6 +11,7 @@ const categories: ("Semua" | Category)[] = [
   "UI/UX",
   "Graphic Design",
   "Game Dev",
+  "Web Dev",
 ];
 
 export default function Projects() {
@@ -23,7 +24,7 @@ export default function Projects() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-20">
       <Reveal>
-        <SectionTitle eyebrow="Portfolio" title="Semua Karya" />
+        <SectionTitle eyebrow="Portfolio" title="Semua Proyek" />
       </Reveal>
 
       <Reveal delay={0.1}>

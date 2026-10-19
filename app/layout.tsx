@@ -8,9 +8,9 @@ import LoadingScreen from "@/components/LoadingScreen";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fajri Nugroho — Web Developer & Designer",
+  title: "Portfolio - Fajri Nugroho",
   description:
-    "Portfolio UI/UX Design, Graphic Design, dan Game Development oleh Fajri Nugroho.",
+    "Portfolio UI/UX Design, Graphic Design, dan Game Developer oleh Fajri Nugroho.",
 };
 
 export default function RootLayout({

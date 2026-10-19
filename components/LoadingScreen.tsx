@@ -25,7 +25,7 @@ export default function LoadingScreen() {
       <div className="fixed inset-0 z-[100] bg-neutral-950 flex items-center justify-center">
         <div className="flex flex-col items-center gap-6">
           <div className="text-3xl md:text-4xl font-bold tracking-tight text-white">
-            fajri
+            Nexx
             <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
               .dev
             </span>
@@ -65,7 +65,7 @@ export default function LoadingScreen() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-3xl md:text-4xl font-bold tracking-tight text-white"
             >
-              fajri
+              Nexx 
               <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
                 .dev
               </span>

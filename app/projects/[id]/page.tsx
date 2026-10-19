@@ -19,11 +19,11 @@ export default async function ProjectDetail({
   if (!project) notFound();
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
+    <div className="max-w-4xl mx-auto px-6 py-8">
       <Reveal>
         <Link
           href="/projects"
-          className="text-sm text-neutral-500 hover:text-indigo-600 transition inline-flex items-center gap-1 mb-8"
+          className="text-sm text-neutral-500 hover:text-indigo-600 transition inline-flex items-center gap-1 mb-4"
         >
           ← Kembali ke Projects
         </Link>
@@ -39,20 +39,21 @@ export default async function ProjectDetail({
       </Reveal>
 
       <Reveal delay={0.1}>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+        <h1 className="text-4xl md:text-4xl font-bold tracking-tight mb-6">
           {project.title}
         </h1>
       </Reveal>
 
       <Reveal delay={0.15}>
-        <div className="relative aspect-video rounded-xl overflow-hidden bg-neutral-100 mb-10 card-shadow">
+        <div className="relative w-full rounded-xl overflow-hidden bg-neutral-100 mb-10 card-shadow">
           <Image
             src={project.image}
             alt={project.title}
-            fill
-            priority
+            width={0}
+            height={0}
             sizes="100vw"
-            className="object-cover"
+            style={{ width: "100%", height: "auto" }}
+            priority
           />
         </div>
       </Reveal>
@@ -87,27 +88,31 @@ export default async function ProjectDetail({
         </section>
       </Reveal>
 
-      <Reveal delay={0.3}>
-        <section className="mb-12">
-          <h2 className="text-xl font-semibold mb-4">Galeri</h2>
-        </section>
-      </Reveal>
+      {/* Dokumentasi Aplikasi */}
+<section className="mb-12">
+  <h2 className="text-xl font-semibold mb-6">Dokumentasi Aplikasi</h2>
 
-      <div className="grid md:grid-cols-2 gap-4 mb-12">
-        {project.gallery.map((img, i) => (
-          <Reveal key={i} delay={i * 0.1}>
-            <div className="relative aspect-video rounded-lg overflow-hidden bg-neutral-100 card-shadow group">
-              <Image
-                src={img}
-                alt={`${project.title} - ${i + 1}`}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-          </Reveal>
-        ))}
-      </div>
+  <Reveal delay={0.3}>
+    {/* Menggunakan CSS Columns agar rapat ke atas (Masonry) */}
+    <div className="columns-1 md:columns-2 gap-4 space-y-4">
+      {project.gallery.map((img, i) => (
+        <div
+          key={i}
+          className="relative rounded-xl overflow-hidden bg-neutral-100 card-shadow break-inside-avoid"
+        >
+          <Image
+            src={img}
+            alt={`Dokumentasi ${i + 1}`}
+            width={0}
+            height={0}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </div>
+      ))}
+    </div>
+  </Reveal>
+</section>
 
       {project.link && project.link !== "#" && (
         <Reveal delay={0.2}>
